@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a52a2a;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.countdown {
+  background-color: #f0f8ff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.countdown-setter form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.countdown-setter form input {
+  padding: 0;
+  width: 4rem;
+}
+
+.countdown h1 {
+  margin-bottom: 1rem;
+}
+
+.countdown-btns {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+}
+
+.countdown button {
+  border: none;
+  background-color: #a52a2a;
+  color: #f0f8ff;
+  padding: 0.4rem 1.4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+  font-size: 1.2rem;
+}
+
+.countdown button:hover {
+  color: #a52a2a;
+  background-color: #f0f8ff;
+  border: 1px solid #a52a2a;
+}
