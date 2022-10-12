@@ -10,7 +10,7 @@
 
 ![name](https://img.shields.io/badge/Vimal--Kumar-lightgrey)
 
-## Countdown [Live Link](https://name-conversion-js.netlify.app/)
+## Countdown [Live Link](https://countdownfsjs.netlify.app/)
 
 - Skills Gained in this project
 
